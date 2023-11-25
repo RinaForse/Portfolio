@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282c33;
+    font-family: Fira Code;
+    font-style: normal;
+    line-height: normal;
+    color: var(--white, #FFF);
+}
+
+.header {
+    display: flex;
+    padding: 32px 0px 8px 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 12.52% 0 12.52%
+}
+
+#name {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#home {
+    display: flex;
+    align-items: flex-start;
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    text-decoration: none;
+
+
+}
+
+.header-txt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.header-text {
+    display: flex;
+    align-items: flex-start;
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    text-decoration: none;
+
+}
+
+.purple-txt {
+    color: #C778DD;
+}
+
+.media {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-left: 1.24%;
+    position: absolute;
+    margin-top: -61px;
+    position: fixed;
+}
+
+.about-me {
+    margin: 11% 12.52% 0 12.52%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.group27 {
+    width: 174px;
+    height: 77px;
+    gap: 14px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.frame47 {
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 14px;
+}
+
+
+.txt-about-me {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 26px;
+    margin-top: 112px;
+    margin-left: 5px;
+    width: 515px;
+    height: 62%;
+    /* 162.5% */
+}
+
+.read-more {
+    display: inline-flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--primary, #C778DD);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--white, #FFF);
+
+}
+
+.img-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+#frame29 {
+    display: flex;
+    width: 84px;
+    height: 84px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    z-index: -1;
+    position: absolute;
+    top: 470px;
+    right: 620px;
+    
+}
+
+.skills {
+    margin: 6% 12.52% 4% 12.52%;
+}
+
+.group26 {
+    display: flex;
+    width: 391px;
+    align-items: center;
+    gap: 16px;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 48px;
+}
+
+#line7 {
+    height: 1px;
+    fill: var(--primary, #C778DD);
+    align-items: center;
+    display: flex;
+}
+
+.group37 {
+    height: 76.7%;
+    width: 57.3%;
+    flex-shrink: 0;
+    gap: 16px;
+    display: flex;
+    padding: 8px 0px;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    gap: 8px;
+    flex: 1 0 0;
+
+}
+
+.skills-txt {
+    display: inline-flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.frame59 {
+    display: flex;
+    padding: 0px 8px;
+    align-items: flex-start;
+    align-self: stretch;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.frame19 {
+    display: flex;
+    padding: 0px 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    border-top: 1px solid var(--gray, #ABB2BF);
+}
+
+.group36 {
+    display: flex;
+    position: relative;
+    top: 12px;
+    left: 3%;
+    width: 349px;
+    height: 282px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 145px;
+}
+
+#frame49 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.line1 {
+    width: 100%;
+    height: 1px;
+    background-color: #ABB2BF;
+}
+
+.frame49 {
+    display: flex;
+    width: 77%;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin: 0% 12.52% 0 12.52%; */
+
+}
+
+.frame24 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.frame59 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+
+}
+
+.frame16 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -8px;
+}
+
+.frame23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 500
+}
+
+.group22 {
+    gap: 8px;
+}
+
+.last-txt {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.facts {
+    margin: 4% 12.52% 0 12.52%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.frame52 {
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 26px;
+}
+
+#frame53 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.frame53 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.fact {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--gray, #ABB2BF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.frame54 {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--gray, #ABB2BF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.frame57 {
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+}
+.img {
+    height: 20px;
+}
+
