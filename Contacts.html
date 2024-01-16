@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="ContactsStyle.css" />
+    <link rel="stylesheet" href="ModalStyle.css" />
+    <link rel="stylesheet" href="headerStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Fira+Code:wght@300;400;500;600;700&family=Moirai+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div id="name"><img src="images/space.png" class="img" />Irina</div>
+        <div class="header-txt">
+          <a href="Home.html" id="home"
+            ><span class="purple-txt">#</span>home</a
+          >
+          <a href="Projects.html" class="header-text"
+            ><span class="purple-txt">#</span>experience</a
+          >
+          <a href="About.html" class="header-text"
+            ><span class="purple-txt">#</span>about-me</a
+          >
+          <a href="Contacts.html" class="header-text"
+            ><span class="purple-txt">#</span>contacts</a
+          >
+        </div>
+      </div>
+      <div class="media">
+        <img src="images/Line 10 (Stroke).svg" />
+        <a href="https://t.me/rinaforse"><img src="images/Telegram.svg" /></a>
+        <a href="https://www.linkedin.com/in/rinaforse/"
+          ><img src="images/Linkedin.svg"
+        /></a>
+        <a href="https://www.instagram.com/rinaforse"
+          ><img src="images/instagram.svg"
+        /></a>
+        <button class="modal-btn"><img src="images/Email.svg" /></button>
+      </div>
+    </header>
+    <section class="title" data-aos="fade-up" data-aos-duration="1000">
+      <div class="frame47">
+        <p><span class="purple-txt">/</span>contacts</p>
+      </div>
+      <div style="margin-bottom: 46px">Who am i?</div>
+      <div class="contact">
+        <div class="group43">
+          I’m interested in freelance opportunities. However, if you have other
+          request or question, don’t hesitate to contact me
+        </div>
+        <div class="group57">
+          <div class="frame33">
+            Message me here
+            <div class="frame32">
+              <div class="contacts-icon">
+                <img src="images/Telegram.svg" alt="" />RinaForse
+              </div>
+              <div class="contacts-icon">
+                <img src="images/Email.svg" />miss-rina@bk.ru
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="modal">
+        <form
+          id="form"
+          action="mailto:miss-rina@bk.ru"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="input">
+            <input
+              id="input"
+              type="text"
+              name="FirstName"
+              placeholder="Name"
+              required
+            />
+            <br />
+            <input id="input" type="text" name="Email" placeholder="Email" />
+            <br />
+          </div>
+          <div class="textarea">
+            <input
+              id="title"
+              type="text"
+              name="Title"
+              placeholder="Title"
+              required
+            />
+            <br />
+            <textarea
+              name="Info"
+              placeholder="Message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit" id="btn-send">Send</button>
+        </form>
+        <button id="modal-close">X</button>
+      </div>
+    </section>
+    <footer>
+      <div class="line1"></div>
+      <div class="frame49">
+        <div class="frame24">
+          <div class="frame59">
+            <div class="frame16">
+              <img src="images/space.png" class="img" />
+              Irina
+            </div>
+          </div>
+          <p>Compensation and Benefits Analyst</p>
+        </div>
+        <div class="frame23">
+          Media
+          <div class="group22">
+            <a href="https://t.me/rinaforse"
+              ><img src="images/Telegram.svg"
+            /></a>
+            <a href="https://www.linkedin.com/in/rinaforse/"
+              ><img src="images/Linkedin.svg"
+            /></a>
+            <a href="https://www.instagram.com/rinaforse"
+              ><img src="images/instagram.svg"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p class="last-txt">© Copyright 2023. Made by Irina</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="home.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

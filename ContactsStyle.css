@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282c33;
+    font-family: Fira Code;
+    font-style: normal;
+    line-height: normal;
+    color: var(--white, #FFF);
+}
+
+
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 145px;
+}
+
+#frame49 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.line1 {
+    width: 100%;
+    height: 1px;
+    background-color: #ABB2BF;
+}
+
+.frame49 {
+    display: flex;
+    width: 77%;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin: 0% 12.52% 0 12.52%; */
+
+}
+
+.frame24 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.frame59 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+
+}
+
+.frame16 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -8px;
+}
+
+.frame23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 500
+}
+
+.group22 {
+    gap: 8px;
+}
+
+.last-txt {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title {
+    flex-shrink: 0;
+    margin: 11% 12.52% 0 12.52%;
+}
+
+.contact {
+    height: 18%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame47 {
+    display: inline-flex;
+    align-items: flex-start;
+    color: #FFF;
+    font-family: Fira Code;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 14px;
+    width: 174px;
+    height: 77px;
+}
+
+.group43 {
+    font-size: 16px;
+    font-weight: 500;
+    width: 37%;
+}
+
+.group57 {
+    display: flex;
+    justify-content: end;
+}
+
+.frame33 {
+    display: inline-flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border: 1px solid var(--gray, #ABB2BF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.contacts-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.frame32 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.img {
+    height: 20px;
+}
+
